@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+header{
+    padding: 10px 70px 70px 70px;
+    background-color: #636C79;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+img[alt = "logo"]{
+    color: white;
+}
+.list{
+    display: flex;
+    gap: 50px;
+}
+.list-items{
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+}
+.lets-talk{
+    font-size: 18px;
+    padding: 10px 30px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+img[alt="group-img"]{
+    width: 500px;
+}
+.col2{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.col2 h1{
+    font-size: 60px;
+    color: white;
+    padding-bottom: 30px;
+}
+.col2 p{
+    font-size: 20px;
+    line-height: 1.4;
+    color: #D1D3D7;
+    padding-bottom: 40px;
+}
+.email{
+    padding: 5px 10px;
+    background-color: #fff;
+    margin-right: 160px;
+}
+
+.email input{
+    padding: 20px 30px;
+    border: none;
+}
+.btn{
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #8BB7A2;
+    color: white;
+    border: none;  
+}
+main{
+    padding: 70px;
+    
+}
+.first-row{
+    display: flex;
+    flex-direction: column;
+}
+.row-heading h1{
+    text-align: center;
+    font-size: 50px;
+    color: #1B1D21;
+}
+.figures{
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+.figure h1{
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.figure h3{
+    color: #4A4A4A;
+}
+.img-row{
+    padding: 50px 70px;
+    text-align: center;
+}
+img[alt="meeting-img"]{
+    height: 95vh;
+    width: 80vw;
+}
+.mid-row{
+    padding: 70px 70px;
+    font-size: 30px;
+    text-align: center;
+    color: #1B1D21;
+}
+.row{
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+img[alt="girl-pic"]{
+    width: 500px;
+}
+.col h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: #1B1D21;
+}
+.col p{
+    font-size: 20px;
+    line-height: 1.4;
+    padding-bottom: 40px;
+    color: #616c77;
+}
+img[alt = "boy-pic"]{
+    width: 500px;
+}
+img[alt = "man-laptop"]{
+    width: 500px;
+}
+
+.three-images{
+    display: flex;
+    justify-content: space-between;
+}
+img[alt="last-img"]{
+    width: 350px;
+    padding-bottom: 20px;
+}
+.images h3{
+    padding-bottom: 20px;
+    font-size: 23px;
+    color: #1B1D21;
+}
+.images p{
+    font-size: 18px;
+    color: #545c6b;
+}
+.see-more{
+    padding: 70px 70px;
+    text-align: center;
+}
+footer{
+    padding: 70px 70px;
+    color: white;
+    background-color: #10181D;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 55px;
+    border-bottom: 1px solid rgb(192, 186, 186);
+}
+.footer-links{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-column h3{
+    font-size: 20px;
+    color: #E1E2E3;
+    padding-bottom: 20px;
+}
+.footer-list-items{
+    list-style-type: none;
+    padding-bottom: 20px;
+    color: #B8BABC;
+}
