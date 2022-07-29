@@ -12,5 +12,7 @@
     - new type of footer design
 
 Below is the link and view of the project👇👇👇
+<br>
+[Business-Sol](business-sol.netlify.app)
 
 ![business-solution](project12css.png)
