@@ -6,6 +6,14 @@
     box-sizing: border-box;
     font-family: Roboto;
 }
+li:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 header{
     padding: 10px 70px 70px 70px;
     background-color: #636C79;
