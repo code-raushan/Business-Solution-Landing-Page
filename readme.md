@@ -11,6 +11,8 @@
     - HTML class structure
     - new type of footer design
 
+>This project took 4 hours to complete.
+
 Below is the link and view of the project👇👇👇
 <br>
 [Business-Sol](business-sol.netlify.app)
