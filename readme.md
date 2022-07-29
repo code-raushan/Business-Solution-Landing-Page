@@ -6,7 +6,7 @@
 
 >This one was a good project to deal with multiple images and manipulating their sizes and their position with `flexbox`. This project also strengthened my ability to write more modular HTML class structure😀 that makes styling by CSS more easy and fun. 
 
--Key learning from the project👇👇👇
+- Key learning from the project👇👇👇
     - image positioning using `flexbox`
     - HTML class structure
     - new type of footer design
