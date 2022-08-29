@@ -57,6 +57,7 @@ img[alt = "logo"]{
     justify-content: space-around;
     
 }
+
 img[alt="group-img"]{
     width: 500px;
 }
@@ -76,9 +77,12 @@ img[alt="group-img"]{
     padding-bottom: 40px;
 }
 .email{
+    display: flex;
+    justify-content: start;
+}
+.email-box{
     padding: 5px 10px;
-    background-color: #fff;
-    margin-right: 160px;
+    background-color: #fff;  
 }
 
 .email input{
@@ -215,4 +219,166 @@ footer{
     list-style-type: none;
     padding-bottom: 20px;
     color: #B8BABC;
+}
+@media screen and (max-width: 640px){
+    header{
+        width: 100vw;
+        padding: 10px 30px 30px 30px;
+    }
+    nav{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-content{
+        display: none;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .col1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img[alt="group-img"]{
+        width: 90vw;
+    }
+    .col2 h1{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .email{
+        display: flex;
+        justify-content: start;
+    }
+    .email-box{
+        padding: 5px 5px;
+        background-color: #fff;  
+    }
+    .email input{
+        padding: 10px 10px;
+        
+    }
+    
+    .btn{
+        font-size: 12px;
+        padding: 8px 16px;
+        background-color: #8BB7A2;
+        color: white;
+        border: none;  
+    }
+    main{
+        padding: 10px;  
+    }
+    .row-heading h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .figures{
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;        
+    }
+    figure{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;   
+    }
+    .figure h1{
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    .figure h3{
+        color: #4A4A4A;
+        font-size: 15px;
+    }
+    .img-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+    img[alt="meeting-img"]{
+        height: 30vh;
+    }
+    .mid-row h1{
+        padding: 0;
+        /* padding: 10px; */
+        font-size: 35px;
+    }
+    .row{
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col{
+        padding: 10px;
+    }
+    .col h1{
+        font-size: 25px;
+    }
+    .col .btn{
+        font-size: 20px;
+    }
+    .col img{
+        width: 90vw;
+    }
+    .second-pic{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-pic-col{
+        order: 2;
+    }
+    .special-row{
+        padding-top: 25px;
+    }
+    .special-col h1{
+        font-size: 35px;
+    }
+    .center-text-content{
+        text-align: center;
+    }
+    .center-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .three-images{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    img[alt="last-img"]{
+        height: 50vh;
+    }
+    .see-more .btn{
+        font-size: 20px;
+    }
+    footer{
+        padding: 10px;
+    }
+    .footer-logo{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-column{
+        display: none;
+    }
 }
